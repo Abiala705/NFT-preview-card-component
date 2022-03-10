@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <style>
+      @font-face {
+        font-family: "Outfit";
+        src: url("/Outfit/Outfit-VariableFont_wght.ttf");
+        font-weight: 300, 400, 600;
+        font-size: 18px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        font-family: "Outfit", "Arial", sans-serif;
+        background-color: hsl(217, 54%, 11%);
+        font-size: 18px;
+        width: auto;
+        height: auto;
+      }
+      .main {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        width: auto;
+        height: auto;
+        margin-top: 100px;
+      }
+      .container {
+        width: 320px;
+        height: 530px;
+        margin: auto;
+        background-color: hsl(216, 50%, 16%);
+        justify-content: center;
+        border-radius: 12px;
+        /*
+        display: flex;
+        flex-direction: column;
+        */
+      }
+      .upper img {
+        width: 280px;
+        height: 260px;
+        margin: 20px 20px 20px 20px;
+        border-radius: 6px;
+      }
+
+      .middle {
+        margin: 0px 20px 20px 20px;
+      }
+      .middle h1 {
+        color: hsl(0, 0%, 100%);
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .middle h1:hover {
+        color: hsl(178, 100%, 50%);
+      }
+      .middle p {
+        font-size: 16px;
+        font-weight: 300;
+        color: hsl(215, 51%, 70%);
+        line-height: 150%;
+      }
+      .middle div.svg {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+      }
+      div.svg-1 {
+        color: hsl(178, 100%, 50%);
+      }
+      div.svg-2 {
+        color: hsl(215, 51%, 70%);
+      }
+      hr {
+        border: 0.1px hsl(215, 32%, 27%) solid;
+      }
+      .lower {
+        font-size: 18px;
+        font-weight: 300px;
+        margin: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .lower img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px hsl(0, 0%, 100%) solid;
+      }
+      .lower div.creator {
+        align-items: center;
+        padding-top: 8px;
+        color: hsl(0, 0%, 100%);
+        flex-basis: 80%;
+        font-size: 15px;
+      }
+      .lower div.creator:hover {
+        color: hsl(178, 100%, 50%);
+      }
+      span {
+        color: hsl(215, 51%, 70%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="upper">
+          <a
+            ><img src="images/image-equilibrium.jpg" alt="equilibrium-image"
+          /></a>
+        </div>
+        <div class="middle">
+          <h1>Equilibrium #3429</h1>
+
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+          <div class="svg">
+            <div class="svg-1">
+              <img src="images/icon-ethereum.svg" alt="ethereum icon" /> 0.041
+              ETH
+            </div>
+            <div class="svg-2">
+              <img src="images/icon-clock.svg" alt="clock icon" /> 3 days left
+            </div>
+          </div>
+
+          <hr />
+        </div>
+
+        <div class="lower">
+          <div class="avatar">
+            <img src="images/image-avatar.png" alt="image-avatar" />
+          </div>
+          <div class="creator"><span>Creation of</span> Jules Wyvern</div>
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Abiala Israel</a>.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
