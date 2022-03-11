@@ -27,8 +27,8 @@ The link to the desktop screenshot can be seen above.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [NFT-preview-card-component](https://abialaisrael-nft-preview-component.netlify.app/)
 
 ## My process
 
@@ -52,5 +52,6 @@ I will take my time to learn more on CSS grid for bigger web layout and see how 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Abiala705)
+- Frontend Mentor - [@Abiala705](https://www.frontendmentor.io/profile/Abiala705)
 - Twitter - [@abiala_israel](https://www.twitter.com/abiala_israel)
+- LinkedIn - [@Abiala (Adetayo) Israel](https://www.linkedin.com/in/abiala-israel)
